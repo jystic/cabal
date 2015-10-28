@@ -1,4 +1,4 @@
-name: Cabal
+name: Cabal-hdevtools
 version: 1.22.4.0
 copyright: 2003-2006, Isaac Jones
            2005-2011, Duncan Coutts
@@ -240,7 +240,7 @@ library
     Distribution.Simple.GHC.IPI641
     Distribution.Simple.GHC.IPI642
     Distribution.Simple.GHC.ImplInfo
-    Paths_Cabal
+    Paths_Cabal_hdevtools
 
   if flag(bundled-binary-generic)
     other-modules:
